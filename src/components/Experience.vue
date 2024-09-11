@@ -6,7 +6,7 @@
         <div
           v-for="(experience, index) in experiences"
           :key="index"
-          class="bg-transparent p-6 shadow-lg rounded-lg mb-12 flex transition-transform transform hover:scale-105 hover:shadow-2xl bg-white-30 backdrop-blur-lg border-transparent"
+          class="bg-transparent p-6 shadow-lg rounded-lg mb-12 flex transition-transform transform hover:scale-105 hover:shadow-2xl bg-white backdrop-blur-lg border-transparent"
         >
           <!-- Dates on the Left Side -->
           <div class="w-1/4 flex-none pr-6">
@@ -15,9 +15,9 @@
   
           <!-- Experience Info on the Right Side -->
           <div class="w-3/4">
-            <h3 class="text-xl font-bold text-gray-900">{{ experience.role }}</h3>
-            <p class="text-gray-600">{{ experience.company }}</p>
-            <p class="mt-2 text-gray-700">{{ experience.description }}</p>
+            <h3 class="text-2xl font-bold text-dark-green">{{ experience.role }}</h3>
+            <p class="text-xl text-gray-600">{{ experience.company }}</p>
+            <p class="mt-2 text-xl text-gray-700">{{ experience.description }}</p>
   
             <!-- Skills in Capsules -->
             <div class="flex flex-wrap gap-2 mt-4">
@@ -29,22 +29,44 @@
             </div>
           </div>
         </div>
+       
+        <div class="bg-white p-6 shadow-lg rounded-lg mb-12 flex items-center transition-transform transform hover:scale-105 hover:shadow-2xl">
+       
+        <div class="w-1/4 flex-none pr-6">
+          <img :src="cusat" alt="School Emblem" class="w-24 md:w-72 h-24 object-contain"/>
+        </div>
+
+       
+        <div class="w-3/4">
+          <h3 class="text-2xl font-bold text-gray-900">BTech in Computer Science</h3>
+          <p class="text-xl text-gray-600">Cochin University of Science and Technology</p>
+          <p class="mt-2 text-xl text-gray-700">GPA: 8.78</p>
+        </div>
+        
+      </div>
+      <div class="text-4xl text-dark-green aladin-regular mt-10">
+          View full resume
+        </div>
       </div>
     </div>
   </template>
   
   <script setup>
-  import { ref } from 'vue';
+  import { onMounted, ref } from 'vue';
+  import cusat from "../assets/cusat.png";
+  onMounted(()=>{
+    window.scrollTo(0,0);
+  });
   
   const experiences = ref([
     {
-      dates: 'July 2024 – Present',
-      role: 'Web Developer',
+      dates: 'July 2024 – August 2024',
+      role: 'Web Developer (Contract)',
       company: 'Truelift, Mangalore',
       description: `Created web pages using React.js and Node.js.
         Developed responsive landing pages, enhancing digital presence.
         Worked closely with a small team, participating in stand-up meetings and sprint planning sessions.`,
-      skills: ['React.js', 'Node.js', 'Responsive Design'],
+      skills: ['React.js', 'Node.js', 'Responsive Design','Javascript','CSS'],
     },
     {
       dates: 'February 2023 – February 2024',
@@ -54,7 +76,7 @@
         Increased website engagement by 30% through mobile-responsive design techniques.
         Utilized Tailwind CSS and JavaScript to create distinctive landing pages.
         Collaborated with the team through stand-up meetings, sprint planning, and BitBucket for user stories and bug tracking.`,
-      skills: ['Vue.js', 'React.js', 'Tailwind CSS', 'JavaScript', 'Node.js', 'Hapi.js', 'PostgreSQL'],
+      skills: ['Vue.js', 'React.js', 'Tailwind CSS','Typescript', 'JavaScript', 'Node.js', 'Hapi.js', 'PostgreSQL'],
     },
     {
       dates: 'August 2022 – January 2023',
@@ -63,7 +85,7 @@
       description: `Worked with senior developers to create user interfaces with Tailwind CSS.
         Developed features using React and conducted testing with Jest.
         Supported senior developers during code revamp and integration tasks.`,
-      skills: ['Tailwind CSS', 'React.js', 'Jest'],
+      skills: ['Tailwind CSS', 'React.js', 'Jest','Node'],
     },
     // Add more experiences here...
   ]);
@@ -103,6 +125,11 @@
   .bg-dark-green {
     background-color: #025A4E;
   }
+  .aladin-regular {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
   </style>
   
   

@@ -5,7 +5,7 @@ import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 
 const routes = [
-  { path: '/home', component: Home },
+  { path: '/', component: Home },
   { path: '/experience', component: Experience },
   { path: '/about', component: About },
   { path: '/projects', component: Projects },
