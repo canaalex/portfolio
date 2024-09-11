@@ -11,7 +11,7 @@ import { onMounted} from 'vue';
 
 <template>
     <div class="pb-12 pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
-      <div class="max-w-7xl mx-auto px-4 py-8">
+      <div class="mx-auto px-4 md:px-32 py-8">
   
   <!-- <div class="flex items-center mb-12">
    

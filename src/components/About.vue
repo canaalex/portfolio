@@ -34,11 +34,11 @@ import { onMounted} from 'vue';
       </div>
       <div class="w-full md:w-3/5">
         <p
-          class="tracking-tight text-left text-2xl md:text-8xl aladin-regular text-dark-green"
+          class="tracking-tight text-left text-xl md:text-8xl aladin-regular text-dark-green"
         >
           I'm a web developer from Cochin, India.
         </p>
-        <p class="leading-relaxed text-left text-xl text-dark-green mt-10">
+        <p class="leading-relaxed text-left text-lg text-dark-green mt-10">
           Over the past 1.8 years, I've worked as a developer, focusing on
           building responsive and user-friendly web applications. My experience
           spans working with modern front-end frameworks like Vue.js and

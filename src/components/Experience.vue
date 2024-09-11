@@ -1,7 +1,7 @@
 
 <template>
     <div class="pb-12 pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
-      <div class=" mx-auto px-4 md:px-72">
+      <div class=" mx-auto px-4 md:px-32">
         <!-- Experience Items -->
         <div
           v-for="(experience, index) in experiences"
@@ -17,7 +17,7 @@
           <div class="w-3/4">
             <h3 class="text-xl font-bold text-dark-green">{{ experience.role }}</h3>
             <p class="text-lg text-gray-600">{{ experience.company }}</p>
-            <p class="mt-2 text-lg text-gray-700">{{ experience.description }}</p>
+            <p class="mt-2 text-base text-gray-700">{{ experience.description }}</p>
   
             <!-- Skills in Capsules -->
             <div class="flex flex-wrap gap-2 mt-4">
