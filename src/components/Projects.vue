@@ -10,8 +10,8 @@ import { onMounted} from 'vue';
 </script>
 
 <template>
-    <div class="pb-12 pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
-      <div class="mx-auto px-4 md:px-32 py-8">
+    <div class="pb-12 pt-28 md:pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
+      <div class="mx-auto px-8 md:px-32 py-8">
   
   <!-- <div class="flex items-center mb-12">
    
@@ -70,7 +70,7 @@ import { onMounted} from 'vue';
   <div class="flex gap-8 md:gap-0 flex-col md:flex-row items-center mb-12">
   <!-- Project Image (Placeholder for now) -->
   <div class="w-full md:w-1/3">
-    <img :src="portfolio" alt="Portfolio Image" class="rounded-lg shadow-md">
+    <img :src="portfolio" alt="Portfolio Image" class="rounded-lg shadow-md border-2 border-black">
   </div>
   <!-- Project Info -->
   <div class="w-full md:w-2/3 pl-0 md:pl-8">

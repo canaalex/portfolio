@@ -1,7 +1,7 @@
 
 <template>
-    <div class="pb-12 pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
-      <div class=" mx-auto px-4 md:px-32">
+    <div class="pb-12 pt-28 md:pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
+      <div class=" mx-auto px-8 md:px-32">
         <!-- Experience Items -->
         <div
           v-for="(experience, index) in experiences"
@@ -9,7 +9,7 @@
           class="bg-transparent p-6 shadow-lg rounded-lg mb-12 flex transition-transform transform hover:scale-105 hover:shadow-2xl bg-white backdrop-blur-lg border-transparent"
         >
           <!-- Dates on the Left Side -->
-          <div class="w-1/4 flex-none pr-6">
+          <div class="w-1/4 flex-col md:flex-none pr-6">
             <p class="text-dark-green text-lg font-semibold hover:text-white transition-colors">{{ experience.dates }}</p>
           </div>
   
@@ -60,7 +60,7 @@
   
   const experiences = ref([
     {
-      dates: 'July 2024 – August 2024',
+      dates: 'Jul 2024 – Aug 2024',
       role: 'Web Developer (Contract)',
       company: 'Truelift, Mangalore',
       description: `Created web pages using React.js and Node.js.
@@ -69,7 +69,7 @@
       skills: ['React.js', 'Node.js', 'Responsive Design','Javascript','CSS'],
     },
     {
-      dates: 'February 2023 – February 2024',
+      dates: 'Feb 2023 – Feb 2024',
       role: 'Junior Web Developer',
       company: 'Superhire, Cochin',
       description: `Designed and developed web pages using Vue.js, React.js, Node.js, Hapi.js, and PostgreSQL.
@@ -79,7 +79,7 @@
       skills: ['Vue.js', 'React.js', 'Tailwind CSS','Typescript', 'JavaScript', 'Node.js', 'Hapi.js', 'PostgreSQL'],
     },
     {
-      dates: 'August 2022 – January 2023',
+      dates: 'Aug 2022 – Jan 2023',
       role: 'Associate Software Engineer Trainee',
       company: 'Keyvalue Software Systems, Cochin',
       description: `Worked with senior developers to create user interfaces with Tailwind CSS.
