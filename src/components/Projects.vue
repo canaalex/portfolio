@@ -11,7 +11,7 @@ import { onMounted} from 'vue';
 
 <template>
     <div class="pb-12 pt-28 md:pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
-      <div class=" px-8 lg:px-28 py-8">
+      <div class=" px-8 lg:px-28 py-8 dm-sans-regular">
   
   <!-- <div class="flex items-center mb-12">
    
@@ -88,3 +88,11 @@ import { onMounted} from 'vue';
 
     </div>
 </template>
+<style scoped>
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>

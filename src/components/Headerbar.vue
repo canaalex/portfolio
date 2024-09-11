@@ -38,7 +38,7 @@ onUnmounted(() => {
 
 <template>
   <div
-    :class="`bg-transparent top-0 fixed flex justify-center p-1 md:p-4 w-full mt-5 z-10 `">
+    :class="`bg-transparent top-0 fixed flex justify-center p-1 md:p-4 w-full mt-5 z-10 dm-sans-regular `">
     <div :class="`px-3 flex gap-1 rounded-full py-2 text-dark-green text-base md:text-xl font-semibold  ${headerClass}`">
       <!-- Home Button -->
       <button
@@ -88,6 +88,12 @@ onUnmounted(() => {
 
 .pirata-one-regular {
   font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
