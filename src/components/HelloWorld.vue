@@ -12,8 +12,8 @@ const count = ref(0)
 <template>
   <div className="bg-gradient-to-r from-red-200 to-amber-100 h-screen w-full justify-center flex flex-col">
     <div className="relative font-extrabold text-6xl md:text-8xl aladin-regular text-dark-green ">
-      <img :src="star" alt="star" class="absolute right-0 -top-28 md:-top-16 md:right-96 w-28 h-32" />
-      <img :src="star" alt="star" class="absolute left-4 -bottom-32 md:-bottom-20 md:left-72 w-28 h-32 " />
+      <img :src="star" alt="star" class="absolute right-0 -top-28 md:-top-16 md:right-64 w-28 h-32" />
+      <img :src="star" alt="star" class="absolute left-4 -bottom-32 md:-bottom-20 md:left-56 w-28 h-32 " />
     <div>Hi. I'm Riya.</div>
    
     <div>A Web Developer.</div>
