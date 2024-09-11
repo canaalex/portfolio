@@ -14,7 +14,7 @@ import { onMounted} from 'vue';
     class="pb-12 px-8 md:px-24 pt-40 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center"
   >
     <div
-      className="relative font-extrabold text-5xl md:text-9xl aladin-regular text-dark-green mb-8"
+      className="relative font-extrabold text-3xl md:text-9xl aladin-regular text-dark-green mb-8"
     >
       <div>I'm Riya.</div>
     </div>
@@ -34,11 +34,11 @@ import { onMounted} from 'vue';
       </div>
       <div class="w-full md:w-3/5">
         <p
-          class="tracking-tight text-left text-4xl md:text-8xl aladin-regular text-dark-green"
+          class="tracking-tight text-left text-2xl md:text-8xl aladin-regular text-dark-green"
         >
           I'm a web developer from Cochin, India.
         </p>
-        <p class="leading-relaxed text-left text-2xl text-dark-green mt-10">
+        <p class="leading-relaxed text-left text-xl text-dark-green mt-10">
           Over the past 1.8 years, I've worked as a developer, focusing on
           building responsive and user-friendly web applications. My experience
           spans working with modern front-end frameworks like Vue.js and
@@ -55,7 +55,7 @@ import { onMounted} from 'vue';
        <img :src="water" className="w-96 h-96 md:w-477px md:h-542px rounded-xl"/>
     </div>
    
-    <div class="leading-relaxed text-2xl text-dark-green flex justify-center items-center w-4/6 text-left mt-36">
+    <div class="leading-relaxed text-xl text-dark-green flex justify-center items-center w-4/6 text-left mt-36">
       Outside of work, I enjoy swimming and playing games, as well as exploring new technologies and learning about the latest trends in web development. I also enjoy staying active by going to the gym and keeping up with fashion.
     </div>
     <div class="mt-36">

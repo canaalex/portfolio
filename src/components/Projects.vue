@@ -40,8 +40,8 @@ import { onMounted} from 'vue';
     </div>
     <!-- Project Info -->
     <div class="w-full md:w-2/3 pl-0 md:pl-8">
-      <h2 class="text-2xl font-bold text-dark-green">Kanban Board</h2>
-      <p class="mt-2 text-xl text-gray-600">Provides a visual representation of tasks as cards that can be moved through various stages of completion.</p>
+      <h2 class="text-xl font-bold text-dark-green">Kanban Board</h2>
+      <p class="mt-2 text-lg text-gray-600">Provides a visual representation of tasks as cards that can be moved through various stages of completion.</p>
       <div class="mt-4 flex justify-center gap-2">
         <img :src="github" alt="github" class="w-5 h-5 rounded-full"/>
         <a href="https://github.com/canaalex/kanban-board" class="text-blue-700 text-lg align-middle flex hover:underline">Kanban Board</a>
@@ -58,8 +58,8 @@ import { onMounted} from 'vue';
     </div>
     <!-- Project Info -->
     <div class="w-full md:w-2/3 pl-0 md:pl-8">
-      <h2 class="text-2xl font-bold text-dark-green">Country Explorer</h2>
-      <p class="mt-2 text-xl text-gray-600">A web application designed to help users explore detailed information about countries around the world. This project leverages the REST Countries API to provide users with comprehensive data on various countries, including their languages, currencies, population, and more.</p>
+      <h2 class="text-xl font-bold text-dark-green">Country Explorer</h2>
+      <p class="mt-2 text-lg text-gray-600">A web application designed to help users explore detailed information about countries around the world. This project leverages the REST Countries API to provide users with comprehensive data on various countries, including their languages, currencies, population, and more.</p>
       <div class="mt-4 flex justify-center gap-2">
         <img :src="github" alt="github" class="w-5 h-5 rounded-full"/>
         <a href="https://github.com/canaalex/country-explorer" class="text-blue-700 text-lg align-middle flex hover:underline">Country explorer</a>
@@ -74,8 +74,8 @@ import { onMounted} from 'vue';
   </div>
   <!-- Project Info -->
   <div class="w-full md:w-2/3 pl-0 md:pl-8">
-    <h2 class="text-2xl font-bold text-dark-green">Portfolio Website</h2>
-    <p class="mt-2 text-xl text-gray-600">A personal portfolio showcasing my skills, projects, and experience as a web developer. Built using modern web technologies like Vue.js, Tailwind CSS, and Node.js.</p>
+    <h2 class="text-xl font-bold text-dark-green">Portfolio Website</h2>
+    <p class="mt-2 text-lg text-gray-600">A personal portfolio showcasing my skills, projects, and experience as a web developer. Built using modern web technologies like Vue.js, Tailwind CSS, and Node.js.</p>
     <div class="mt-4 flex justify-center gap-2">
       <img :src="github" alt="github" class="w-5 h-5 rounded-full"/>
       <a href="https://github.com/canaalex/portfolio" class="text-blue-700  text-lg align-middle flex hover:underline">Portfolio</a>

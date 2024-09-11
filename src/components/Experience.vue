@@ -1,7 +1,7 @@
 
 <template>
     <div class="pb-12 pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
-      <div class="px-72 mx-auto sm:px-6 lg:px-8">
+      <div class=" mx-auto px-4 md:px-72">
         <!-- Experience Items -->
         <div
           v-for="(experience, index) in experiences"
@@ -10,14 +10,14 @@
         >
           <!-- Dates on the Left Side -->
           <div class="w-1/4 flex-none pr-6">
-            <p class="text-dark-green text-xl font-semibold hover:text-white transition-colors">{{ experience.dates }}</p>
+            <p class="text-dark-green text-lg font-semibold hover:text-white transition-colors">{{ experience.dates }}</p>
           </div>
   
           <!-- Experience Info on the Right Side -->
           <div class="w-3/4">
-            <h3 class="text-2xl font-bold text-dark-green">{{ experience.role }}</h3>
-            <p class="text-xl text-gray-600">{{ experience.company }}</p>
-            <p class="mt-2 text-xl text-gray-700">{{ experience.description }}</p>
+            <h3 class="text-xl font-bold text-dark-green">{{ experience.role }}</h3>
+            <p class="text-lg text-gray-600">{{ experience.company }}</p>
+            <p class="mt-2 text-lg text-gray-700">{{ experience.description }}</p>
   
             <!-- Skills in Capsules -->
             <div class="flex flex-wrap gap-2 mt-4">
@@ -38,13 +38,13 @@
 
        
         <div class="w-3/4">
-          <h3 class="text-2xl font-bold text-gray-900">BTech in Computer Science</h3>
-          <p class="text-xl text-gray-600">Cochin University of Science and Technology</p>
-          <p class="mt-2 text-xl text-gray-700">GPA: 8.78</p>
+          <h3 class="text-xl font-bold text-gray-900">BTech in Computer Science</h3>
+          <p class="text-lg text-gray-600">Cochin University of Science and Technology</p>
+          <p class="mt-2 text-lg text-gray-700">GPA: 8.78</p>
         </div>
         
       </div>
-      <div class="text-4xl text-dark-green aladin-regular mt-10">
+      <div class="text-3xl text-dark-green aladin-regular mt-10">
           View full resume
         </div>
       </div>
