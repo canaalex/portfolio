@@ -1,7 +1,7 @@
 
 <template>
     <div class="pb-12 pt-28 md:pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center">
-      <div class=" mx-auto px-8 md:px-32">
+      <div class="px-8 lg:px-7">
         <!-- Experience Items -->
         <div
           v-for="(experience, index) in experiences"

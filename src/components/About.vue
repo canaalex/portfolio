@@ -14,7 +14,7 @@ import { onMounted} from 'vue';
     class="pb-12 px-8 md:px-24 pt-36 md:pt-48 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center"
   >
     <div
-      className="relative font-extrabold text-6xl md:text-9xl aladin-regular text-dark-green mb-8"
+      className="relative font-extrabold text-6xl lg:text-9xl aladin-regular text-dark-green mb-8"
     >
       <div>I'm Riya.</div>
     </div>
@@ -34,7 +34,7 @@ import { onMounted} from 'vue';
       </div>
       <div class="w-full md:w-3/5">
         <p
-          class="tracking-tight text-left text-4xl md:text-8xl aladin-regular text-dark-green"
+          class="tracking-tight text-left text-4xl md:text-6xl aladin-regular text-dark-green"
         >
           I'm a web developer from Cochin, India.
         </p>
