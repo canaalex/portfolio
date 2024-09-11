@@ -14,7 +14,7 @@ import { onMounted} from 'vue';
     class="pb-12 px-8 md:px-24 pt-40 bg-gradient-to-r from-red-200 to-amber-100 h-full w-full flex flex-col items-center"
   >
     <div
-      className="relative font-extrabold text-5xl md:text-10xl aladin-regular text-dark-green mb-8"
+      className="relative font-extrabold text-5xl md:text-9xl aladin-regular text-dark-green mb-8"
     >
       <div>I'm Riya.</div>
     </div>
