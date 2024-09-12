@@ -44,9 +44,9 @@
         </div>
         
       </div>
-      <div class="text-3xl text-dark-green aladin-regular mt-10">
+      <a class="text-3xl text-dark-green aladin-regular mt-10" href="https://drive.google.com/file/d/1wP6PnY-4BLjZjw5ZjYXpUjmEMvQ6HRwy/view?usp=sharing">
           View full resume
-        </div>
+      </a>
       </div>
     </div>
   </template>
