@@ -1,6 +1,6 @@
 <script setup>
 import Headerbar from './components/Headerbar.vue';
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/Home.vue'
 </script>
 
 <template>
