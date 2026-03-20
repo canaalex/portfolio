@@ -44,7 +44,7 @@
         </div>
         
       </div>
-      <a class="text-3xl text-dark-green aladin-regular mt-10" href="https://drive.google.com/file/d/1wP6PnY-4BLjZjw5ZjYXpUjmEMvQ6HRwy/view?usp=sharing">
+      <a class="text-3xl text-dark-green aladin-regular mt-10" href="https://drive.google.com/file/d/1bH8FkrVsQ28KyenWB4-bRiJIcJDEbU4J/view?usp=sharing">
           View full resume
       </a>
       </div>
@@ -59,6 +59,16 @@
   });
   
   const experiences = ref([
+   {
+      dates: 'Nov 2024 – Present',
+      role: 'SDE-1',
+      company: 'Nua, Mumbai',
+      description: `Developed scalable frontend features using Vue.js and React.js, building reusable and responsive UI components.
+    Designed and implemented a customizable “Build Your Box” feature, contributing to a significant increase in upsell revenue.
+    Integrated frontend with backend APIs and Magento services using PHP to support reliable and data-driven workflows.
+    Collaborated with a small team in an agile environment and mentored junior developers through code reviews and debugging.`,
+      skills: ['Vue.js', 'React.js', 'JavaScript', 'CSS', 'Vuetify', 'PHP', 'Magento', 'SQL'],
+    },
     {
       dates: 'Jul 2024 – Aug 2024',
       role: 'Web Developer (Contract)',

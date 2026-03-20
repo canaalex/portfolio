@@ -36,15 +36,13 @@ import { onMounted} from 'vue';
         <p
           class="tracking-tight text-left text-4xl md:text-6xl aladin-regular text-dark-green"
         >
-          I'm a web developer from Cochin, India.
+          I'm a software developer with full-stack experience from Cochin, India.
         </p>
         <p class="leading-relaxed text-left text-lg text-dark-green mt-10">
-          Over the past 1.8 years, I've worked as a developer, focusing on
+          Over the past 3 years, I've worked as a developer, focusing on
           building responsive and user-friendly web applications. My experience
           spans working with modern front-end frameworks like Vue.js and
-          React.js, as well as backend technologies such as Node.js. Currently,
-          I'm freelancing, applying my skills to diverse projects and helping
-          clients build robust digital solutions.
+          React.js, as well as backend technologies such as Node.js.
         </p>
       </div>
     </div>

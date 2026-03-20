@@ -16,7 +16,7 @@ const count = ref(0)
       <img :src="star" alt="star" class="absolute left-4 -bottom-32 md:-bottom-24 md:left-48 w-24 h-28 " />
     <div>Hi. I'm Riya.</div>
    
-    <div>A Web Developer.</div>
+    <div>A Software Developer.</div>
   </div>
     
   </div>
